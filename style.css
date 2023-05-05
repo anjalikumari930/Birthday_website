@@ -55,6 +55,10 @@ body{
     font-style:oblique;
     margin-left: 10%;
 }
+h2{
+    font-size:15px;
+    color:cyan;
+}
 .quotes {
     margin-top: 1px;
     
