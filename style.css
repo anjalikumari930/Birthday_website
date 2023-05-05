@@ -1,0 +1,157 @@
+.slider-container{
+    display:flex;
+    width:100%;
+    margin-top:10%;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.slider{
+    position:relative;
+    height: 500px;
+    width: 400px;
+   margin:0 auto;
+    margin-left: 5%;
+    overflow: hidden;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.slider img.active{
+    opacity: 1;
+
+}
+body{
+    background-color: blue;
+    background-image: url("baground6.gif");
+    background-size: cover;
+    height:100%;
+}
+.navbar{
+    background-color: #481d3c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 15px 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 38px;
+}
+.navbar h2{
+    text-align: center;
+    font-size: 30px; /* adjust the font size to make it bigger */
+    font-weight: bold; /* add bold font weight */
+    overflow: hidden; /* hide overflowing text */
+    letter-spacing: 0.15em; /* add some space between letters */
+    font-style:oblique;
+    margin-left: 10%;
+}
+.quotes {
+    margin-top: 1px;
+    
+    width: 50%;
+    margin-right: 5%;
+    padding: 0 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    order: -1; /* move the quotes to the right */
+  }
+  
+  .quotes h1 {
+    margin-top: 50px;
+    text-align: top;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: cyan;
+  }
+  
+  .quotes p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(215, 161, 60);
+  }
+  
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery .item {
+    margin: 20px;
+    position: relative;
+    width: 300px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .gallery .message {
+    background-color: #0e139b;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .gallery .item:hover .message {
+    opacity: 1;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+  }
+  .footer {
+    background-color: #28021e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .next-page-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .next-page-button:hover {
+    background-color: #52d024;
+  }
+  #play-button:hover {
+    transform: scale(1.2);
+    }
+    #gif {
+    height: 60px;
+    width: 160px;
+    margin-right: 100px;
+    margin-left: 10px;
+    }
+  
